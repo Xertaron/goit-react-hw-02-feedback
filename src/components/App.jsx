@@ -7,9 +7,9 @@ import Notification from './Notification/Notification';
 
 class App extends Component {
   state = {
-    Good: 0,
-    Neutral: 0,
-    Bad: 0,
+    good: 0,
+    neutral: 0,
+    bad: 0,
   };
 
   onLeaveFeedback = state => {
